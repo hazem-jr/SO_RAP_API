@@ -1,0 +1,9 @@
+projection;
+strict ( 2 );
+
+define behavior for ZsalesOrderCDS alias SalesOrder
+{
+  use create;
+  use update;
+
+}
